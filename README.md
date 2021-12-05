@@ -5,12 +5,12 @@ Bu repositorie Google'ın tamamıyla ücretsiz olarak sunduğu Android Kotlin Fu
 
 ## New To Programming
 
-- [Dice Roller](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/Dice%20Roller)
+- [DiceRoller](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/Dice%20Roller)
 
 ## Prior Programming 
 
-- [About Me](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/AboutMe%20-%20Project)
-- [About Me Interactive](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/About%20me%20Interactive)
+- [AboutMe](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/AboutMe%20-%20Project)
+- [AboutMeInteractive](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/About%20me%20Interactive)
 - [ColorMyViews](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/ColorMyViews)
 - [AboutMeDataBinding](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/AboutMeDataBinding)
 

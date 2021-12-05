@@ -13,12 +13,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //Tanıtma ve tıklanma işlemlerinin başlatılmasını sağlayan satır
         setListeners()
 
     }
 
+    // Buttonlara veya TextViewlara basılma durumunda yapılacak işlemi tanımlayan fonksiyon.
     private fun makeColored(view: View) {
 
+        // Basılan viewa göre yapılacak işlemi belirttiğimiz when metodu
         when (view.id) {
             R.id.box_one_text -> view.setBackgroundColor(Color.DKGRAY)
             R.id.box_two_text -> view.setBackgroundColor(Color.GRAY)
@@ -34,8 +37,10 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    //İşlemleri gerçekleştireceğimiz viewların tanıtıldığı ve basılma durumlarının dinlendiği fonksiyon
     private fun setListeners() {
 
+        //viewların tanıtıldığı alan
         val boxOneText = findViewById<TextView>(R.id.box_one_text)
         val boxTwoText = findViewById<TextView>(R.id.box_two_text)
         val boxThreeText = findViewById<TextView>(R.id.box_three_text)
@@ -48,6 +53,7 @@ class MainActivity : AppCompatActivity() {
 
         val rootConstraintLayout = findViewById<View>(R.id.constraint_layout)
 
+        //viewların listelendiği kısım
         val clickableViews: List<View> =
             listOf(
                 boxOneText, boxTwoText, boxThreeText,
@@ -55,6 +61,7 @@ class MainActivity : AppCompatActivity() {
                 redButton, greenButton, yellowButton
             )
 
+        //listelenen viewlardan birisine tıklandığında gerçekleşek işlemin belirtildiği for döngüsü
         for (item in clickableViews) {
             item.setOnClickListener { makeColored(it) }
         }

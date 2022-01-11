@@ -37,7 +37,7 @@ data class NetworkVideo(
     val closedCaptions: String?)
 
 /**
- * Ağ (Netework) sonuçlarını veritabanı nesnelerine dönüştürün.
+ * Ağ (Network) sonuçlarını veritabanı nesnelerine dönüştürün.
  */
 fun NetworkVideoContainer.asDomainModel(): List<DevByteVideo> {
     return videos.map {

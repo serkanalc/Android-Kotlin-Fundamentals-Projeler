@@ -77,7 +77,7 @@ class DevByteViewModel(application: Application) : AndroidViewModel(application)
                 _isNetworkErrorShown.value = false
 
             } catch (networkError: IOException) {
-                // Show a Toast error message and hide the progress bar.
+                // Bir Toast hata mesajı gösterin ve ilerleme çubuğunu gizleyin.
                 if(playlist.value.isNullOrEmpty())
                     _eventNetworkError.value = true
             }
@@ -100,7 +100,7 @@ class DevByteViewModel(application: Application) : AndroidViewModel(application)
                 @Suppress("UNCHECKED_CAST")
                 return DevByteViewModel(app) as T
             }
-            throw IllegalArgumentException("Unable to construct viewmodel")
+            throw IllegalArgumentException("viewmodel oluşturulamıyor")
         }
     }
 }

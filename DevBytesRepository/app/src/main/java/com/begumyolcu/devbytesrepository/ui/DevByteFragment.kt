@@ -90,7 +90,7 @@ class DevByteFragment : Fragment() {
             // YouTube uygulamasına doğrudan bir intent oluşturmaya çalışın
             var intent = Intent(Intent.ACTION_VIEW, it.launchUri)
             if(intent.resolveActivity(packageManager) == null) {
-                // YouTube app isn't found, use the web url
+                // Youtube uygulaması bulunmazsa, web url'sini kullan
                 intent = Intent(Intent.ACTION_VIEW, Uri.parse(it.url))
             }
 

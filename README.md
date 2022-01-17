@@ -14,6 +14,7 @@ Bu repository Google'ın tamamıyla ücretsiz olarak sunduğu Android Kotlin Fun
 - [ColorMyViews](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/ColorMyViews)
 - [AboutMeDataBinding](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/AboutMeDataBinding)
 - [DessertClicker-Starter](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/DessertClickerStarter)
+- [DessertClickerLogs](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/DessertClickerLogs)
 - [DevBytes-starter](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/DevBytesstarter)
 - [DevBytesRepository](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/DevBytesRepository)
 - [DevBytesWorkManager](https://github.com/serkanalc/Android-Kotlin-Fundamentals-Projeler/tree/main/DevBytesWorkManager)
